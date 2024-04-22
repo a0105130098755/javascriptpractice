@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>시간 조정 예제</title>
+<script src="alarm.js"></script>
+</head>
+<body>
+<h1>시간 입력 및 조정</h1>
+<form id="timeForm">
+    <label for="hourInput">시간(0-23):</label>
+    <input type="number" id="hourInput" name="hour" min="0" max="23" required>
+    <label for="minuteInput">분(0-59):</label>
+    <input type="number" id="minuteInput" name="minute" min="0" max="59" required>
+    <button type="button" onclick="adjustTime()">조정하기</button>
+</form>
+<p id="result"></p>
+</body>
+</html>
