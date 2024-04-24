@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>학원 수료</title>
+  <style>
+    body {
+      background-color: #f0f4f8; /* 전체 배경색을 밝고 진정한 색으로 변경 */
+      font-family: 'Arial', sans-serif; /* 폰트를 더 현대적이고 읽기 쉬운 것으로 변경 */
+    }
+  
+    #container {
+      margin: 50px auto;
+      width: 300px;
+      height: 300px;
+      border-radius: 50%;
+      border: 3px solid #0077cc; /* 테두리를 두껍고 선명한 색으로 변경 */
+      background-color: #ffffff; /* 밝은 배경색으로 변경 */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* 그림자 추가 */
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; /* 내용을 중앙에 배치 */
+      transition: transform 0.3s ease; /* 클릭 시 애니메이션 효과 추가 */
+    }
+  
+    #container:hover {
+      transform: scale(1.05); /* 마우스를 올렸을 때 약간 확대되는 효과 */
+    }
+  
+    h1 {
+      color: #333333; /* 제목 색상을 더 어두운 회색으로 변경 */
+    }
+  
+    .accent {
+      font-size: 1.8em;
+      font-weight: bold;
+      color: #d6336c; /* 강조 색상을 더 생동감 있는 핑크로 변경 */
+    }
+  
+    p {
+      color: #555555; /* 텍스트 색상을 더 부드러운 회색으로 변경 */
+      font-size: 1.1em; /* 텍스트 크기를 약간 증가 */
+    }
+  </style>
+  
+</head>
+<body>
+  <div id="container">
+    <h1>학원 수료</h1>
+    <p><span class="accent" id="result"></span>일 남았습니다. 힘내세요!!!!!</p>
+    <p>화이팅!</p>
+  </div>  
+
+  <script src="학원수료.js"></script>
+</body>
+</html>
