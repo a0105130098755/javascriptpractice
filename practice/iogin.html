@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+    <link rel="stylesheet" href="login.css">
+    <title>회원 가입</title>
+</head>
+<body>
+    <div class="container">
+        <h1>회원 가입</h1>
+        <form class="registration-form"> 
+            <div class="input-group">
+                <input id="id_txt" type="text" placeholder="아이디를 입력하세요." class="form-input">
+                <p class="input-check id_input_check"></p>
+            </div>
+
+            <div class="input-group">
+                <input id="pw_txt" type="password" placeholder="비밀번호를 입력 하세요." class="form-input">
+                <p class="input-check pw_input_check"></p>
+            </div>
+
+            <div class="input-group">
+                <input id="email_txt" type="email" placeholder="이메일을 입력 하세요." class="form-input">
+                <p class="input-check email_input_check"></p>
+            </div>
+
+            <div class="input-group">
+                <input id="phone_txt" type="tel" placeholder="전화번호를 입력 하세요." class="form-input">
+                <p class="input-check phone_input_check"></p>
+            </div>
+            
+            <button type="button" class="button reg_req_btn" onclick="validateInputs()">가입 요청</button>
+        </form>
+    </div>
+    <script src="./login.js"></script>
+</body>
+</html>
