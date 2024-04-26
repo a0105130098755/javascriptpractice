@@ -1,0 +1,40 @@
+#container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .box {
+    width: 140px;
+    height: 40px;
+    flex-wrap: wrap;
+    margin: 4px;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .green {
+    background-color: green;
+  }
+  .orange {
+    background-color: orange;
+  }
+  .purple {
+    background-color: purple;
+  }
+  
+  #result {
+    width: 500px;
+    height: 300px;
+    margin: 30px auto;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+  }
+  
